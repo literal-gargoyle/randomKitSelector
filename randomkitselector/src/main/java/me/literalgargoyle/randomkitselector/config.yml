@@ -1,6 +1,0 @@
-kits:
-  warrior:
-    inventory:
-      - "Serialized ItemStack data here"
-    armor:
-      - "Serialized ItemStack data here"
