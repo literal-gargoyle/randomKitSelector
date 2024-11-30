@@ -1,0 +1,11 @@
+kits:
+  # Example Kit
+  StarterKit:
+    items:
+      - 'DIAMOND_SWORD'
+      - 'APPLE'
+    armor:
+      - 'DIAMOND_HELMET'
+      - 'DIAMOND_CHESTPLATE'
+      - 'DIAMOND_LEGGINGS'
+      - 'DIAMOND_BOOTS'
