@@ -1,6 +1,6 @@
 # Random Kit Selector
-Please Keep in mind that this plugin is still being activly worked on.
-A Minecraft plugin that allows OPed users to create custom kits and randomly assign them to players upon spawning, death, or first joining. The plugin is fully configurable and provides a seamless way to manage kits.
+## Please Keep in mind that this plugin is still being activly worked on.
+RandomKitSelector or RKS is a simple plugin that allows kits to be given randomly from a copied inventory, that gets saved in the config.yml.
 
 ## Features
 - **Custom Kit Creation**: OPed users can create kits by copying their current inventory, preserving item positions.
@@ -11,13 +11,13 @@ A Minecraft plugin that allows OPed users to create custom kits and randomly ass
 - **Easy-to-Use Commands**: All configuration is done via simple commands.
 - **Lightweight and Efficient**: Designed to integrate seamlessly into your server.
 
-## Commands
+## Command, and Yes, there is only ONE command!
 
 | Command           | Description                                          | Permission             |
 |-------------------|------------------------------------------------------|------------------------|
-| `/createkit <name>` | Creates a new kit using the OP player's inventory.  | `randomkit.createkit`  |
-| `/listkits`        | Lists all available kits.                           | `randomkit.listkits`   |
-| `/deletekit <name>`| Deletes an existing kit.                            | `randomkit.deletekit`  |
+| `/RKS C <name>` | Creates a new kit using the OPed player's inventory.  | `randomkitselector.createkit`  |
+| `/RKS L`        | Lists all available kits.                           | `randomkitselector.listkits`   |
+| `/RKS D <name>`| Deletes an existing kit, Based on name. Forgot the name? Simply use /RKS L to find all kits.                            | `randomkitselector.deletekit`  |
 
 ## Installation
 
@@ -28,14 +28,19 @@ A Minecraft plugin that allows OPed users to create custom kits and randomly ass
 
 ## Configuration
 
-The plugin will automatically generate a configuration file (`config.yml`) to control the behavior of the plugin. Key configuration options include:
-
-- **Spawn Behavior**: Toggle random kit assignment on spawn, death, or first join.
-- **Kit Limits**: Set limits on the number of kits that can be created.
+The plugin will automatically generate a configuration file (`config.yml`) to save the kits for the plugin. 
 
 Example `config.yml`:
 ```yaml
-random-kits:
-  on-spawn: true
-  on-death: true
-  on-first-join: true
+kits:
+  # Example Kit
+  StarterKit:
+    items:
+      - 'DIAMOND_SWORD'
+      - 'APPLE'
+    armor:
+      - 'DIAMOND_HELMET'
+      - 'DIAMOND_CHESTPLATE'
+      - 'DIAMOND_LEGGINGS'
+      - 'DIAMOND_BOOTS'
+
