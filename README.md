@@ -1,5 +1,5 @@
 # Random Kit Selector
-
+Please Keep in mind that this plugin is still being activly worked on.
 A Minecraft plugin that allows OPed users to create custom kits and randomly assign them to players upon spawning, death, or first joining. The plugin is fully configurable and provides a seamless way to manage kits.
 
 ## Features
