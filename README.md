@@ -1,5 +1,5 @@
 # Random Kit Selector
-## Please Keep in mind that this plugin is still being activly worked on.
+## Please Keep in mind that this plugin is still being actively worked on.
 RandomKitSelector or RKS is a simple plugin that allows kits to be given randomly from a copied inventory, that gets saved in the config.yml.
 
 ## Features
