@@ -1,0 +1,8 @@
+name: RKSB
+version: '1.0'
+main: me.literalgargoyle.rksb.RKSB
+commands:
+  RKS:
+    description: A command to manage kits.
+    usage: '/RKS <C|L|D> <optional: kitName>'
+    permission: rks.use

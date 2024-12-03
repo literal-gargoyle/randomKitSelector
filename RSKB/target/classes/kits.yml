@@ -1,0 +1,9 @@
+kits:
+  MyKit1:
+    items:
+      - {id: DIAMOND_SWORD, amount: 1, data: 0}
+      - {id: IRON_SWORD, amount: 1, data: 0}
+  MyKit2:
+    items:
+      - {id: BOW, amount: 1, data: 0}
+      - {id: ARROW, amount: 5, data: 0}
